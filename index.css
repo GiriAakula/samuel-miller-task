@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url("https://cdn.discordapp.com/attachments/798763577850462218/798768265333178368/background.jpg");
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+.container {
+   position: relative;
+}
+ h1 {
+     display: none;
+     color: red;
+        font-size: 100px;
+    }
+
+
+ .bg-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+ }
